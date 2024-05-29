@@ -5,7 +5,7 @@ namespace MyLibrary
     public static class Movement
     {
         // プレイヤーの移動入力を取得し、移動ベクトルを返す
-        public static Vector3 PlayerMove()
+        public static Vector3 KeyMoveVector()
         {
             // 入力を取得
             float moveX = Input.GetAxis("Horizontal");
